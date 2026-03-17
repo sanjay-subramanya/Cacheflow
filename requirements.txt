@@ -1,0 +1,7 @@
+torch>=2.0.0
+transformers>=4.35.0
+gradio>=6.0.0
+sentence-transformers
+rouge-score
+matplotlib
+numpy

@@ -1,0 +1,24 @@
+{
+  "averages": {
+    "similarity": 0.30919870334452715,
+    "rouge1": 0.5796556856281836,
+    "rouge2": 0.35451236483266957,
+    "rougeL": 0.4407858104340235,
+    "semantic": 0.8412951176816766,
+    "memory_saved": 9.463423295454545,
+    "speed_overhead": -3.3777950677004727
+  },
+  "similarity_retention": 0.575246910513102,
+  "memory": {
+    "standard_mb": 25.9765625,
+    "compressed_mb": 4.5,
+    "saved_mb": 21.4765625,
+    "saved_percent": 82.67669172932331
+  },
+  "context": {
+    "standard_tokens": 950,
+    "compressed_tokens": 384,
+    "fp16_tokens": 128,
+    "int8_tokens": 256
+  }
+}
