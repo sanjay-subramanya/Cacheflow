@@ -63,7 +63,7 @@ All options live in `config/settings.py`:
 Cacheflow introduces additional compute overhead from quantization, dequantization, and cache management operations. This results in slightly higher per-token latency compared to vanilla inference. The trade-off is deliberate: exchange a modest speed penalty for dramatically reduced memory growth, enabling conversations that would otherwise crash from OOM errors.
 
 **No Fine-Tuning Required**  
-This system operates entirely at inference time and requires no model modifications, fine-tuning, or retraining. It works out-of-the-box with any Hugging Face compatible causal language model that supports KV cache. Simply point it to your model of choice and the compression happens automatically.
+This system operates entirely at inference time and requires no model modifications, fine-tuning, or retraining. Currently, it works out-of-the-box with all "instruct" variants of Qwen 2 and Qwen 2.5 series available on Hugging Face. Simply point it to your model of choice and the compression happens automatically.
 
 **Plug and Play Architecture**  
 Cacheflow wraps around existing models without altering their weights or architecture. The compression is applied to the KV cache during generation, meaning you can switch between compressed and vanilla inference by simply changing a few lines of code.
