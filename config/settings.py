@@ -15,4 +15,3 @@ class Config:
     fp16_window: int =  128
     int8_window: int = 256
     max_new_tokens: int = 150
-    attn_sinks: int = 40
